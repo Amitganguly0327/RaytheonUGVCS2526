@@ -1,7 +1,7 @@
 from launch import LaunchDescription
 import launch_ros.actions
 
-
+# package name not known yet, so using drone_control as a placeholder
 def generate_launch_description():
     return LaunchDescription([
         launch_ros.actions.Node(
